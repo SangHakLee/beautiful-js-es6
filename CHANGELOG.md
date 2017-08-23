@@ -13,6 +13,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
     - `CHANGELOG.md`
     - `index.js`
     - `test/`
+    
+- Destructuring-Assignment
+    - `src/es6/Destructuring-Assignment.js`
+    - `test/es6/Destructuring-Assignment.spec.js`
+
 ### Changed
 - `.gitignore`
     - add `coverage` folder
