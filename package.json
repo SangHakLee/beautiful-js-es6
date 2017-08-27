@@ -7,8 +7,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "node_modules/.bin/mocha test/es6/*",
-    "cover": "node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha test/es6/*",
+    "test": "node_modules/.bin/mocha test/es6/* test/bad-good.js/*",
+    "cover": "node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha test/es6/* test/bad-good.js/*",
     "coveralls": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | coveralls"
   },
   "repository": {
