@@ -1,4 +1,4 @@
-const ES5 = {
+const Bad = {
     "if-else" : (name, age, email) => {
         if ( name && name.length > 3 ) {
             // something
@@ -28,7 +28,7 @@ const ES5 = {
     }
 }
 
-const ES6 = {
+const Good = {
     
     "if-else" : (name, age, email) => {
         try {
